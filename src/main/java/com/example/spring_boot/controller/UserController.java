@@ -4,6 +4,8 @@ package com.example.spring_boot.controller;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -48,11 +50,12 @@ public class UserController {
      * 
      * @param user El usuario que se envía en el cuerpo de la solicitud.
      * @return El usuario que se agregó.
+    */
      
     @PostMapping // Indica que este método responde a solicitudes HTTP POST.
     public User addUser(@RequestBody User user) {
         // @RequestBody indica que el usuario se envía en el cuerpo de la solicitud.
         return userService.addUser(user); // Llama al servicio para agregar el usuario y devuelve el resultado.
     }
-    */
+    
 }
