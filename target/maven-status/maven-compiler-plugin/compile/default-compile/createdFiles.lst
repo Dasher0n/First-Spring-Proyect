@@ -1,3 +1,4 @@
+com/example/spring_boot/service/EmailService.class
 com/example/spring_boot/Application.class
 com/example/spring_boot/controller/UserController.class
 com/example/spring_boot/HelloController.class
@@ -5,3 +6,4 @@ com/example/spring_boot/config/SwaggerConfig.class
 com/example/spring_boot/service/UserService.class
 com/example/spring_boot/model/User.class
 com/example/spring_boot/repository/UserRepository.class
+com/example/spring_boot/controller/CorreoController.class
